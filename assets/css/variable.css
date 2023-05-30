@@ -1,0 +1,79 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black !important; */
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root {
+    /* ---width--- */
+    --max-width:144.0rem;
+
+    --mw-8:80%;
+    --mw-10: 100%;
+
+    --main-ff:'neue haas grotesk display pro';
+    --second-ff:'averta cy';
+
+
+    /* ---font-size-- */
+    --font-size-h1: 19.6rem;
+    --font-size-h2:13rem;
+
+    --font-size-big-p: 3.2rem;
+    --font-size-p: 2rem; /* only used in once*/
+
+    --font-size-small-p: 1.8rem; /* use in various footer areas like social*/
+    --font-size-h3:6.4rem;
+
+    --font-size-h4: 3.5rem;
+    --footer-font:8.6rem;
+
+    --font-nav: 1.6rem;
+    --footer-heading:8.68rem;
+
+    --fs-25: 2.5rem;
+
+
+    /* ----font -weight--- */
+    --fw-5:500;
+    --fw-3:300;
+    
+
+    /* ---- font -color ---- */
+    --color-black: #000000; /* used in project show case*/
+    --color-light-black: #25262A; /* used in h2*/
+
+    --color-white:#ffffff;
+    --color-gray: #7e7e7e; /*used in recent work only*/
+    --color-gray-secondary: #8E8E90; /*used in recent work only*/
+    /* --color-light-gray:#d7d7d8; used in lines */
+    --color-light-gray:#d7d7d8; /*used in lines*/
+
+    --color-circle:#455CE9;
+    --color-circle-hover:#2b44e6;
+    
+    --span-color: #2b44e6;
+    --footer-color: #1C1D20;
+
+    --footer-border: #464749;
+    --border-color:#ceced0;
+    
+    --lower-footer:#b8bcc7;
+    /* ----background-color---- */
+    --color-bg: #999d9e;
+    --color-bg-black:#6A6A6A;
+    --color-bg-gray:linear-gradient(0deg, #D9D9D9 59.46%, rgba(217, 217, 217, 0) 98.38%);
+
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

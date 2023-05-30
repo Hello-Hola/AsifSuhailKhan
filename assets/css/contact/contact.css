@@ -1,0 +1,108 @@
+@import "../about/footer.css";
+body{
+    background: var(--footer-color);
+    color: white;
+}
+
+main , .form-section{
+    margin: 10rem auto ;
+    max-width: 70%;
+    
+}
+
+main{
+    display: flex;
+}
+
+.heading{
+    min-width: 79%;
+}
+
+
+h2{
+    font-size: 8rem;
+    font-weight: var(--fw-5);
+}
+
+.img{
+    min-width: 21%;
+    align-self: flex-end;
+}
+main img{
+    width: 70px;
+    height: 70px;
+    align-self: flex-end;
+}
+
+.form-section{
+    display: flex;
+    gap: 10%;
+}
+
+.form-left{
+    min-width: 69%;
+}
+
+.social-links{
+    min-width: 21%;
+}
+
+.social-details ul{
+    flex-direction: column;
+}
+.social-details ul li{
+    margin: 0 ;
+}
+
+.form-fill{
+    display: flex;
+    gap: 5.1rem;
+    padding: 5rem 0;
+    border-top: 1px solid var(--footer-border);
+    border-bottom: 1px solid var(--footer-border);
+}
+
+.form-data{
+    font-size: var(--fs-25);
+}
+.from-que{
+    margin-bottom: 1.5rem;
+}
+
+.form-answer{
+    color: var(--footer-border);
+}
+
+.social-links  {
+    font-size: var(--font-size-small-p);
+}
+
+.form-no , .social-links p{
+    color: var(--footer-border);
+    font-size: 1.5rem;
+}
+
+.contact-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    margin-bottom: 6.5rem;
+}
+
+.social-details ul{
+    gap: 1.3rem;
+}
+
+.social-details p{
+    margin-bottom: 1.3rem;
+}
+
+footer .line{
+    border: 1px solid var(--footer-border);
+    max-width: 70%;
+    margin: 23.4rem auto 23rem;
+}
+
+.glob{
+    font-size: var(--font-size-small-p);
+}

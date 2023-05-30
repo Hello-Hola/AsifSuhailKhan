@@ -1,0 +1,82 @@
+@import "project.css";
+@import "../variable.css";
+
+.chose-section{
+
+    font-size: clamp(5rem, 12vw, 11rem);
+    color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    font-weight: var(--fw-3);
+    max-width: 70%;
+    margin: 9rem auto;
+    border-bottom: 2px solid rgb(241, 241, 241);
+    padding-bottom: 2rem;
+}
+
+.chose-right{
+    text-align: right;
+}
+
+.chose-design-process{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20%;
+    max-width: 70%;
+    margin: 11.3rem auto 0 ;
+    color: black;
+    /* font-weight: var(--fw-5); */
+    font-weight:500;
+    font-family:var(--main-ff) ;
+    word-spacing: .5rem;
+}
+
+.design-process{
+    width: auto;
+    display: block;
+}
+.design-process p {
+    font-size: var(--font-size-big-p) ;
+    line-height: 5.2rem ;
+    position: relative;
+    margin: 0;
+    color: rgb(48, 48, 48);
+}
+
+
+/* .design-process p:before{
+    content: '';
+    position: absolute;
+    background-image: url(../img/arrow-black.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+    bottom: 18.9rem;
+} */
+.design-goal p {
+    font-size: var(--font-size-p);
+    line-height: 130%;
+    font-family:'lato';
+}
+
+/* =======circle button======== */
+.circle{
+    width: 18.2rem;
+    height: 18.2rem;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    margin-top: 10.2rem;
+    display: grid;
+    place-content: center;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.circle:hover{
+    background-color: var(--color-circle);
+    transition: background-color 0.1s ease-in ;
+}
+
+.design-process span {
+    border-bottom: 2px solid var(--span-color);
+}

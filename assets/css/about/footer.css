@@ -1,0 +1,113 @@
+@import "../variable.css";
+
+footer{
+    background-color: var(--footer-color);
+}
+
+.footer-main{
+    max-width: var(--mw-8);
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    margin: 14.4rem auto;
+}
+.footer-heading{
+    margin: 14.4rem 0 0 0 ;
+}
+footer .line{
+    max-width: var(--mw-10);
+    position: relative;
+    margin: 0 0 2rem 0;
+    border: 1px solid var(--footer-border);
+}
+
+.f-line:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../img/arrow.svg);
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    bottom: 100px;
+} 
+
+footer h2{
+    font-size: var(--footer-heading);
+    font-weight: var(--fw-5);
+    color:var(--color-white) ;
+}
+footer img{
+    margin-right: 2.7rem;
+}
+
+footer .glob{
+    font-size: var(--font-size-small-p);
+    color: var(--color-white);
+}
+
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+button a{
+    text-decoration: none;
+    color: var(--color-light-gray);
+}
+
+.email{
+    margin-right: 2.5rem;
+}
+
+button{
+    color: var(--color-light-gray);
+    padding: 3.2rem 6.4rem;
+    border: 2px solid var(--footer-border);
+    border-radius: 50px;
+    font-size: var(--font-size-small-p);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--color-circle-hover);
+    border-color: var(--color-circle-hover);
+}
+
+/* ----footer nav start------- */
+.footer-nav{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-name{
+    display: flex;
+    justify-content: space-between;
+
+}
+footer ul{
+    margin-bottom: 5em;
+}
+
+footer li{
+ margin-left:4rem;
+}
+footer li , .version{
+    color: var(--lower-footer);
+    font-size: var(--font-size-small-p);
+    font-weight: var(--fw-5)
+}
+
+.list-type{
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 66rem; */ 
+    /* lookign clearn without widht */
+    font-size: var(--font-size-small-p);
+    color: var(--footer-border);
+    padding-bottom: 2rem;
+}
