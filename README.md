@@ -2,4 +2,4 @@
 
 # This post has been changed recently
 
-we added this recently to this project
+We fix the broken contact link and now , we can move on to the page creating steps
