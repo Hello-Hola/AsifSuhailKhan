@@ -22,7 +22,7 @@ html(lang="en")
                     li 
                         a(href="about.html") About 
                     li 
-                        a(href="Contact.html") Contact
+                        a(href='contact.html' onclick="window.open('contact.html','_self');") Contact
 
             .location_section 
                 .location_container 
@@ -65,29 +65,31 @@ html(lang="en")
         .shocase-section
             .cursor
             .wrapper
+                //- project list are started 
+                |
                 .project-list 
                 .project.p-0
                     .project-categ Recent Work
-                .project.p-1
-                    .project-title
-                        h3 Pixel 
-                    .project-categ Design & Devlopment
-                    .project-overlay
-                .project.p-2
-                    .project-title
-                        h3 Horizon
-                    .project-categ Design & Devlopment
-                    .project-overlay
-                .project.p-3
-                    .project-title
-                        h3 Oasis
-                    .project-categ Design & Devlopment
-                    .project-overlay
-                .project.p-4
-                    .project-title
-                        h3 Logomark
-                    .project-categ Design & Devlopment
-                    .project-overlay
+                a(href="../testing.html" ) 
+                    .project.p-1
+                        .project-title
+                            h3 Pixel 
+                        .project-categ Design & Devlopment
+                a(href="") 
+                    .project.p-2
+                        .project-title
+                            h3 Horizon
+                        .project-categ Design & Devlopment
+                a(href="") 
+                    .project.p-3
+                        .project-title
+                            h3 Oasis
+                        .project-categ Design & Devlopment
+                a(href="") 
+                    .project.p-4
+                        .project-title
+                            h3 Logomark
+                        .project-categ Design & Devlopment
 
         .gallery-section
             .buttons 
