@@ -1,7 +1,5 @@
 
 /* section_image start */
-body{
-}
 .section_images{
     background-color: var(--color-bg);
     display: flex;
