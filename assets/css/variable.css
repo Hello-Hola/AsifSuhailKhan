@@ -73,7 +73,8 @@ html{
     --color-bg: #999d9e;
     --color-bg-black:#6A6A6A;
     --color-bg-gray:linear-gradient(0deg, #D9D9D9 59.46%, rgba(217, 217, 217, 0) 98.38%);
-
+    
+    --page-bg-color: white;
 
 }
 
