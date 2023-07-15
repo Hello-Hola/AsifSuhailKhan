@@ -195,6 +195,10 @@ h3{
 .design-process p{
     font-size: var(--font-size-small-p);
     margin-top: 5.2rem;
+    word-spacing: 3px;
+    line-height: 130%;
+    font-size: 2rem;
+    color: rgb(23, 23, 23);
 }
 
 

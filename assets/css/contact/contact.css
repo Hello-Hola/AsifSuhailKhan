@@ -39,8 +39,10 @@ main img{
     gap: 10%;
 }
 
+/* ----- thsi will hide the contact form display--------- */
 .form-left{
     min-width: 69%;
+    display: none;
 }
 
 .social-links{
