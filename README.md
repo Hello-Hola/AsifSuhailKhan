@@ -28,7 +28,7 @@ The website is built using static site generators and hosted on GitHub Pages. Th
 
 ## Usage
 
-Feel free to explore the website by visiting [[https://your-website-url.com](https://hello-hola.github.io/AsifSuhailKhan/)]([https://your-website-url.com](https://hello-hola.github.io/AsifSuhailKhan/)).
+Feel free to explore the website by visiting ([https://your-website-url.com](https://hello-hola.github.io/AsifSuhailKhan/)).
 
 ## Contributing
 
